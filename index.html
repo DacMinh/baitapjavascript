@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <h2>Bài tập 1</h2>
+    <div class="form-group">
+        <h4>Tính tiền lương nhân viên</h4>
+        <div class="form-group">
+            <p>Tiền lương 1 ngày</p>
+            <input id="Songaylamviec" class="from-control w-25">
+            <br>
+            <p>(lương 1 ngày 100.000)</p>
+            <br>
+            <button onclick="tinhTongLuong ()" id="btnTinhTien" class="btn btn-success">Tính Tiền</button>
+            <div class="mt-2 alert alert-success">
+                kết quả : <span id="tongluong"></span> <span>VND</span>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <h2>bài tập 2</h2>
+    <div class="form-gourp">
+        <h4>Tính giá trị Trung bình</h4>
+        <div class="form-gourp">
+            <p>Giá trị Trung bình</p>
+            <input id="value" class="from-control w-25">
+            <br>
+            <p>(giá trị trung bình của 5 số)</p>
+            <br>
+            <button onclick="trungbinh ()" id="btnTrungbinh" class="btn btn-success">Tính Giá Trị</button>
+            <div class="mt-2 alert alert-success">
+                kết quả : <span id="ketqua"></span>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <h2>bài tập 3</h2>
+    <div class="form-gourp">
+        <h4>Quy Đổi Tiền</h4>
+        <div class="form-gourp">
+            <p>Số USD Quy đổi</p>
+            <input id="TheValueOfMoney" class="from-control w-25">
+            <br>
+            <p>(giá trị 23.500 VND/USD )</p>
+            <br>
+            <button onclick="QuyDoi ()" id="btnQuyDoi" class="btn btn-success">Tính Giá Trị Quy Đổi</button>
+            <div class="mt-2 alert alert-success">
+                kết quả : <spans id="QuyDoi"></spans> <span>VND</span>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <h2>bài tập 4</h2>
+    <div class="form-gourp">
+        <h4>Tính Diện Tích, Chu vi hình chữ nhật</h4>
+        <div class="form-gourp">
+            <p>Chiều dài</p>
+            <input id="height" class="from-control w-25">
+
+            <br>
+            <br>
+            <p>Chiều Rộng</p>
+            <input id="width" class="from-control w-25">
+            <br>
+            <br>
+            <button onclick="Tinh ()" id="btnTinh" class="btn btn-success">Tính giá trị</button>
+            <div class="mt-2 alert alert-success">
+                Chu vi : <spans id="perimeter"></spans>
+                <br>
+                Diện tích : <spans id="area"></spans>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <hr>
+    <br>
+    <br>
+    <h2>bài tập 5</h2>
+    <div class="form-gourp">
+        <h4>Tính tổng 2 ký số</h4>
+        <div class="form-gourp">
+            <p>Tính tổng</p>
+            <input id="inputNumber" class="from-control w-25">
+            <br>
+            <p>(VD:12 ,44,83)</p>
+            <br>
+            <button onclick="Calculate ()" id="btnCalculate" class="btn btn-success">Tính Giá Trị </button>
+            <div class="mt-2 alert alert-success">
+                kết quả : <spans id="Calculate">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
